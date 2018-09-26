@@ -1,5 +1,5 @@
 # escape=`
-ARG tag=10.0.14393.2068
+ARG tag=latest
 FROM microsoft/windowsservercore:$tag AS tar
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
